@@ -11,6 +11,8 @@
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
+	<string> NSLocationAlwaysAndWhenInUseUsageDescription</string>
+    <key>to get weather</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>weather_app</string>
