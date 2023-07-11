@@ -56,7 +56,7 @@ class WeatherInfo extends StatelessWidget {
               width: 6.w,
             ),
             Text(
-              mood ,
+              mood,
               style: GoogleFonts.overpass(
                   fontSize: 24.sp,
                   fontWeight: FontWeight.bold,
@@ -68,14 +68,11 @@ class WeatherInfo extends StatelessWidget {
           height: 27.h,
         ),
         Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             const Icon(
               FontAwesomeIcons.wind,
               color: Colors.white,
-            ),
-            SizedBox(
-              width: 5.w,
             ),
             Text(
               'Wind',
@@ -84,16 +81,10 @@ class WeatherInfo extends StatelessWidget {
                   fontWeight: FontWeight.normal,
                   color: Colors.white),
             ),
-            SizedBox(
-              width: 23.w,
-            ),
             Container(
               width: 1.5.w,
               color: Colors.white,
               height: 20.h,
-            ),
-            SizedBox(
-              width: 23.w,
             ),
             Text(
               '$windSpeed km/h',
@@ -108,14 +99,11 @@ class WeatherInfo extends StatelessWidget {
           height: 16.h,
         ),
         Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             const Icon(
               Icons.water_drop_outlined,
               color: Colors.white,
-            ),
-            SizedBox(
-              width: 5.w,
             ),
             Text(
               'Hum',
@@ -124,16 +112,10 @@ class WeatherInfo extends StatelessWidget {
                   fontWeight: FontWeight.normal,
                   color: Colors.white),
             ),
-            SizedBox(
-              width: 30.w,
-            ),
             Container(
               width: 1.5.w,
               color: Colors.white,
               height: 20.h,
-            ),
-            SizedBox(
-              width: 20.w,
             ),
             Text(
               '$hum %',

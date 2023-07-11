@@ -161,10 +161,7 @@ class _HomeLayoutState extends State<HomeLayout> {
     bool service = await isServiceEnabled();
     if (!service) return;
     locationData = await location.getLocation();
-    print('lat');
-    print(locationData!.latitude);
-    print('long');
-    print(locationData!.longitude);
+
     setState(() {});
     // location.onLocationChanged.listen((event) {
     //   locationData = event;
